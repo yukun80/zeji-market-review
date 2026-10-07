@@ -1,0 +1,11 @@
+.venv/
+.cache/
+runs/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+local-config.json
+/docs/
+/AGENTS.md

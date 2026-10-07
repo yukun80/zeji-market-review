@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "operations": {
+    "calendar": {
+      "function": "tool_trade_date_hist_sina",
+      "provider": "新浪 / AKShare",
+      "host": "sina.com.cn",
+      "url": "https://akshare.akfamily.xyz/data/tool/tool.html",
+      "date_kind": "calendar"
+    },
+    "calendar_bs": {
+      "provider": "BaoStock",
+      "host": "baostock.com",
+      "url": "https://www.baostock.com/",
+      "date_kind": "calendar"
+    },
+    "market": {
+      "provider": "东方财富公开行情（保留逐条行情时间）",
+      "host": "push2.eastmoney.com",
+      "url": "https://quote.eastmoney.com/center/gridlist.html#hs_a_board",
+      "date_kind": "snapshot"
+    },
+    "sw_l1": {
+      "function": "sw_index_first_info",
+      "provider": "乐咕乐股 / AKShare",
+      "host": "legulegu.com",
+      "url": "https://legulegu.com/stockdata/sw-industry-overview",
+      "date_kind": "current_directory"
+    },
+    "sw_l2": {
+      "function": "sw_index_second_info",
+      "provider": "乐咕乐股 / AKShare",
+      "host": "legulegu.com",
+      "url": "https://legulegu.com/stockdata/sw-industry-overview",
+      "date_kind": "current_directory"
+    },
+    "sw_daily": {
+      "function": "index_analysis_daily_sw",
+      "provider": "申万宏源研究 / AKShare",
+      "host": "swsresearch.com",
+      "url": "https://www.swsresearch.com/institute_sw/allIndex/releasedIndex",
+      "date_kind": "history"
+    },
+    "sw_history": {
+      "function": "index_hist_sw",
+      "provider": "申万宏源研究 / AKShare",
+      "host": "swsresearch.com",
+      "url": "https://www.swsresearch.com/institute_sw/allIndex/releasedIndex",
+      "date_kind": "history"
+    },
+    "sw_members": {
+      "function": "index_component_sw",
+      "provider": "申万宏源研究 / AKShare",
+      "host": "swsresearch.com",
+      "url": "https://www.swsresearch.com/institute_sw/allIndex/releasedIndex",
+      "date_kind": "current_members"
+    },
+    "em_industries": {
+      "function": "stock_board_industry_name_em",
+      "provider": "东方财富 / AKShare",
+      "host": "push2.eastmoney.com",
+      "url": "https://quote.eastmoney.com/center/boardlist.html#industry_board",
+      "date_kind": "current_directory"
+    },
+    "em_industry_history": {
+      "function": "stock_board_industry_hist_em",
+      "provider": "东方财富 / AKShare",
+      "host": "push2his.eastmoney.com",
+      "url": "https://quote.eastmoney.com/center/boardlist.html#industry_board",
+      "date_kind": "history"
+    },
+    "em_members": {
+      "function": "stock_board_industry_cons_em",
+      "provider": "东方财富 / AKShare",
+      "host": "push2.eastmoney.com",
+      "url": "https://quote.eastmoney.com/center/boardlist.html#industry_board",
+      "date_kind": "current_members"
+    },
+    "themes": {
+      "function": "stock_board_concept_name_em",
+      "provider": "东方财富 / AKShare",
+      "host": "push2.eastmoney.com",
+      "url": "https://quote.eastmoney.com/center/boardlist.html#concept_board",
+      "date_kind": "current_directory"
+    },
+    "theme_members": {
+      "function": "stock_board_concept_cons_em",
+      "provider": "东方财富 / AKShare",
+      "host": "push2.eastmoney.com",
+      "url": "https://quote.eastmoney.com/center/boardlist.html#concept_board",
+      "date_kind": "current_members"
+    },
+    "stock": {
+      "function": "stock_zh_a_hist",
+      "provider": "东方财富 / AKShare",
+      "host": "push2his.eastmoney.com",
+      "url": "https://quote.eastmoney.com/",
+      "date_kind": "history"
+    },
+    "stock_bs": {
+      "provider": "BaoStock",
+      "host": "baostock.com",
+      "url": "https://www.baostock.com/",
+      "date_kind": "history"
+    },
+    "stock_ts": {
+      "provider": "Tushare Pro 可选非复权日线",
+      "host": "api.tushare.pro",
+      "url": "https://tushare.pro/document/2?doc_id=27",
+      "date_kind": "history",
+      "credential_env": "TUSHARE_TOKEN"
+    },
+    "index": {
+      "provider": "东方财富公开指数历史",
+      "host": "push2his.eastmoney.com",
+      "url": "https://quote.eastmoney.com/zs000300.html",
+      "date_kind": "history"
+    },
+    "company": {
+      "function": "stock_individual_info_em",
+      "provider": "东方财富 / AKShare",
+      "host": "push2.eastmoney.com",
+      "url": "https://quote.eastmoney.com/",
+      "date_kind": "current_profile"
+    },
+    "announcements": {
+      "function": "stock_zh_a_disclosure_report_cninfo",
+      "provider": "巨潮资讯 / AKShare",
+      "host": "cninfo.com.cn",
+      "url": "https://www.cninfo.com.cn/",
+      "date_kind": "published"
+    },
+    "etf_sse": {
+      "function": "fund_etf_scale_sse",
+      "provider": "上海证券交易所 / AKShare",
+      "host": "sse.com.cn",
+      "url": "https://www.sse.com.cn/assortment/fund/list/etfinfo/basic/index.shtml",
+      "date_kind": "dated_snapshot"
+    },
+    "etf_szse": {
+      "function": "fund_etf_scale_szse",
+      "provider": "深圳证券交易所 / AKShare",
+      "host": "szse.cn",
+      "url": "https://www.szse.cn/market/product/list/etfList/index.html",
+      "date_kind": "latest_only"
+    },
+    "etf_holdings": {
+      "function": "fund_portfolio_hold_em",
+      "provider": "天天基金披露持仓 / AKShare",
+      "host": "fund.eastmoney.com",
+      "url": "https://fund.eastmoney.com/",
+      "date_kind": "disclosed_quarter"
+    },
+    "etf_history": {
+      "function": "fund_etf_hist_em",
+      "provider": "东方财富 / AKShare",
+      "host": "push2his.eastmoney.com",
+      "url": "https://quote.eastmoney.com/center/gridlist.html#fund_etf",
+      "date_kind": "history"
+    },
+    "us_history": {
+      "function": "stock_us_hist",
+      "provider": "东方财富美股 / AKShare",
+      "host": "push2his.eastmoney.com",
+      "url": "https://quote.eastmoney.com/usstock/",
+      "date_kind": "overseas_history"
+    },
+    "hk_history": {
+      "function": "stock_hk_hist",
+      "provider": "东方财富港股 / AKShare",
+      "host": "push2his.eastmoney.com",
+      "url": "https://quote.eastmoney.com/hk/",
+      "date_kind": "overseas_history"
+    },
+    "sec_filings": {
+      "provider": "SEC EDGAR",
+      "host": "sec.gov",
+      "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+      "date_kind": "published",
+      "identity_env": "SEC_USER_AGENT"
+    },
+    "document": {
+      "provider": "用户指定的公开 HTTPS 原文",
+      "host": "document",
+      "url": "https://www.cninfo.com.cn/",
+      "date_kind": "published"
+    }
+  },
+  "web_sources": [
+    {
+      "purpose": "交易日期与制度",
+      "domains": [
+        "sse.com.cn",
+        "szse.cn",
+        "bse.cn"
+      ]
+    },
+    {
+      "purpose": "公司披露",
+      "domains": [
+        "cninfo.com.cn",
+        "sse.com.cn",
+        "szse.cn",
+        "bse.cn",
+        "hkexnews.hk",
+        "sec.gov"
+      ],
+      "additional": "核实后的公司官网"
+    },
+    {
+      "purpose": "政策与经营数据",
+      "domains": [
+        "gov.cn",
+        "miit.gov.cn",
+        "stats.gov.cn",
+        "ndrc.gov.cn",
+        "pbc.gov.cn",
+        "mofcom.gov.cn",
+        "nea.gov.cn"
+      ],
+      "additional": "相关行业组织官网"
+    },
+    {
+      "purpose": "基金公告和完整持仓",
+      "domains": [
+        "sse.com.cn",
+        "szse.cn",
+        "cninfo.com.cn"
+      ],
+      "additional": "核实后的基金管理人官网"
+    },
+    {
+      "purpose": "ETF估算资金观察（优先）",
+      "domains": [
+        "stock.stockstar.com",
+        "fund.stockstar.com"
+      ],
+      "account_required": false,
+      "method": "检索原文及实际阅读图表；etf-observation命令处理正文",
+      "supplement": [
+        "swsresearch.com",
+        "sse.com.cn",
+        "szse.cn",
+        "基金管理人官网"
+      ]
+    }
+  ],
+  "cost_policy": "默认来源无账号参数；上游可能限流或改变服务。Tushare 仅在用户通过环境变量或项目根目录local-config.json配置凭据且权限实际允许时启用，不购买服务。",
+  "documentation_checked": "2026-10-07",
+  "live_status": "逐次执行状态见运行目录 sources.json；此注册表不承诺任何来源长期可用。"
+}
