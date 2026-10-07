@@ -6,7 +6,7 @@ metadata:
   display-name: "ZeJi-market-review"
   version: "2.0.0"
   language: "zh-CN"
-  source: "发言人2直播做法整理，并按用户要求扩展主动发现与股票池流程"
+  source: "Zeji直播做法整理，并按用户要求扩展主动发现与股票池流程"
 ---
 
 # ZeJi-market-review
@@ -15,7 +15,7 @@ metadata:
 
 先回答“市场出现了哪些我没关注的新变化，哪些值得研究”，再回答“下一交易日出现什么情况，我准备做什么”。不以新闻汇总、涨幅榜复述或验证用户偏好代替复盘。
 
-保留发言人2的市场观察、景气与情绪结合、提前研究候选、映射、价格判断、走势和预案思路。**全市场独立扫描、双维判断、分层股票池及核验规则是用户要求的扩展，不是发言人公开过的完整系统。** 来源见 [来源与边界](references/source-map.md)。不把原文收益自述当作有效性证明。
+保留Zeji的市场观察、景气与情绪结合、提前研究候选、映射、价格判断、走势和预案思路。**全市场独立扫描、双维判断、分层股票池及核验规则是用户要求的扩展，不是发言人公开过的完整系统。** 来源见 [来源与边界](references/source-map.md)。不把原文收益自述当作有效性证明。
 
 首次运行先读 [研究与核验规则](references/research-rules.md)；每日采用 [复盘模板](assets/review-template.md)，维护候选时采用 [股票池模板](assets/pool-template.md)，周末采用 [周末研究模板](assets/weekend-template.md)。[虚构演练](examples/fictional-walkthrough.md)仅示范填写，不提供真实行情。
 
